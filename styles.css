@@ -1,0 +1,57 @@
+#dance-timer, #skincare-tracker {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fffaf0;
+}
+
+#timer-display {
+    font-size: 2rem;
+    color: #ff69b4;
+}
+
+input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+/* Apply Playfair Display for headings */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ff69b4; /* A cute pink shade for Wonyoungism vibes */
+}
+
+/* Use Playfair Display for body text as well */
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Style buttons */
+button {
+    font-family: 'Playfair Display', serif;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #ff85c2;
+}
+
+/* Timer display */
+#timer-display {
+    font-size: 2rem;
+    color: #ff69b4;
+    margin-top: 1rem;
+    font-weight: 600;
+}
